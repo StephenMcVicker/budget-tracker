@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Must-Have Tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <meta name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="keywords" content="Keywords">
+    <meta name="description" content="A budget and financial goals tracker">
     <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Android  -->
+    <meta name="theme-color" content="purple">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- iOS -->
+    <meta name="apple-mobile-web-app-title" content="Budget Tracker">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Both - Mobile -->
+    <meta name="nightmode" content="disable"> 
+    <meta name="screen-orientation" content="portrait">
+    <meta name="msapplication-tap-highlight" content="no">
+
   </head>
   <body>
     <noscript>

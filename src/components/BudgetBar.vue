@@ -66,7 +66,6 @@ export default {
       width: 50%;
       height: 100%;
       background: linear-gradient(180deg, $color-yellow 0%, $color-red 100%);
-      border-radius: 18px;
     }
   }
 }

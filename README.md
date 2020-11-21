@@ -9,7 +9,8 @@ NOTE: THIS IS STILL IN DEVELOPMENT AND IS CONSIDERED A WORK IN PROGRESS.
 
 Vue,
 Sass,
-Pug (formally Jade)
+Pug (formally Jade),
+FontAwesome,
 ES-Lint,
 Preitter.
 

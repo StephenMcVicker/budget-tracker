@@ -16,7 +16,8 @@
     "font-awesome": "^4.7.0",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.0.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-currency-input": "^1.22.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
